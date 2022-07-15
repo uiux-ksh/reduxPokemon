@@ -1,0 +1,78 @@
+*{
+  text-align: center;
+  padding:0;
+  margin:0;
+}
+.pokemon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin:0 auto;
+  width:500px;
+  height: auto;
+  min-height: 500px;
+  border:1px solid #08ac6f;
+  text-align: center;
+
+}
+.pokemon >div > p {
+  padding:15px 0;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color:#25aa1a;
+  text-shadow:3px 5px 3px rgb(0,175,0,.2);
+}
+img{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  box-shadow:0px 4px 5px rgb(0 0 0 / 10%);
+}
+li{
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  color:darkgreen;
+
+}
+ul{
+  margin:5px auto;
+
+  width: 490px;
+
+
+}
+.App{
+ position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+input{
+  margin:20px;
+  border: 1px solid #08ac6f;
+  padding:10px;
+  font-size: 18px;
+  background:#25aa1a;
+  opacity: 0.3;
+  color:#fff;
+
+}
+button{
+  border: none;
+  padding:10px;
+  font-size: 16px;
+  color:#ffffff;
+  background: #08ac6f;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+
+.title{
+  font-size: 18px;
+  color:#25aa1a;
+  font-weight: 600;
+}
